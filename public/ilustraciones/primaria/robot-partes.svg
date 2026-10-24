@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Partes del robot de cartón</title>
+  <rect x="2" y="2" width="796" height="456" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- brazo -->
+  <g transform="rotate(-35 500 250)">
+    <rect x="500" y="238" width="150" height="26" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="4"/>
+  </g>
+  <circle cx="500" cy="250" r="9" fill="#b45309"/>
+
+  <!-- cuerpo -->
+  <rect x="300" y="200" width="200" height="170" rx="8" fill="#d6a96b" stroke="#92602b" stroke-width="5"/>
+  <line x1="300" y1="285" x2="500" y2="285" stroke="#b9854a" stroke-width="3" stroke-dasharray="10 8"/>
+  <rect x="360" y="225" width="80" height="40" rx="6" fill="#fef3c7" stroke="#92602b" stroke-width="3"/>
+  <circle cx="380" cy="245" r="7" fill="#16a34a"/>
+  <circle cx="420" cy="245" r="7" fill="#f97316"/>
+
+  <!-- cabeza -->
+  <rect x="340" y="100" width="120" height="84" rx="8" fill="#e8c48f" stroke="#92602b" stroke-width="5"/>
+  <circle cx="375" cy="135" r="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="425" cy="135" r="14" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <circle cx="378" cy="137" r="6" fill="#1f2937"/>
+  <circle cx="428" cy="137" r="6" fill="#1f2937"/>
+  <path d="M370 162 Q400 178 430 162" fill="none" stroke="#1f2937" stroke-width="4" stroke-linecap="round"/>
+  <line x1="400" y1="100" x2="400" y2="72" stroke="#92602b" stroke-width="5"/>
+  <circle cx="400" cy="66" r="9" fill="#f97316"/>
+
+  <!-- ruedas (tapas) -->
+  <circle cx="335" cy="392" r="24" fill="#2563eb" stroke="#1e3a8a" stroke-width="4"/>
+  <circle cx="335" cy="392" r="10" fill="#93c5fd"/>
+  <circle cx="465" cy="392" r="24" fill="#2563eb" stroke="#1e3a8a" stroke-width="4"/>
+  <circle cx="465" cy="392" r="10" fill="#93c5fd"/>
+
+  <!-- etiquetas -->
+  <g font-size="20" fill="#1f2937">
+    <line x1="340" y1="140" x2="170" y2="110" stroke="#1f2937" stroke-width="2"/>
+    <text x="30" y="106" font-weight="700">Cabeza</text>
+    <text x="30" y="130" font-size="17">caja pequeña</text>
+
+    <line x1="300" y1="290" x2="170" y2="290" stroke="#1f2937" stroke-width="2"/>
+    <text x="30" y="286" font-weight="700">Cuerpo</text>
+    <text x="30" y="310" font-size="17">caja grande</text>
+
+    <line x1="312" y1="400" x2="200" y2="415" stroke="#1f2937" stroke-width="2"/>
+    <text x="30" y="412" font-weight="700">Ruedas</text>
+    <text x="30" y="436" font-size="17">tapas de botella</text>
+
+    <line x1="660" y1="150" x2="590" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <text x="640" y="104" font-weight="700">Brazo</text>
+    <text x="640" y="128" font-size="17">tira de cartón</text>
+
+    <line x1="448" y1="248" x2="620" y2="300" stroke="#1f2937" stroke-width="2"/>
+    <text x="560" y="322" font-weight="700">Botones</text>
+    <text x="560" y="346" font-size="17">tapitas pequeñas</text>
+  </g>
+</svg>

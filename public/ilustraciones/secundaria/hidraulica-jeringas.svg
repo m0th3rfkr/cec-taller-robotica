@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Dos jeringas unidas con una manguera llena de agua</title>
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="376" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- jeringa de control (izquierda) -->
+  <rect x="14" y="140" width="10" height="80" rx="3" fill="#6b7280"/>
+  <rect x="24" y="174" width="80" height="12" fill="#9ca3af"/>
+  <rect x="60" y="150" width="170" height="60" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="116" y="154" width="112" height="52" fill="#93c5fd"/>
+  <rect x="102" y="152" width="14" height="56" fill="#4b5563"/>
+  <rect x="230" y="172" width="26" height="16" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- manguera -->
+  <line x1="256" y1="180" x2="545" y2="180" stroke="#9ca3af" stroke-width="14" stroke-linecap="butt"/>
+  <line x1="256" y1="180" x2="545" y2="180" stroke="#60a5fa" stroke-width="8"/>
+  <circle cx="400" cy="180" r="7" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+
+  <!-- jeringa receptora (derecha) -->
+  <rect x="545" y="172" width="26" height="16" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <rect x="571" y="150" width="170" height="60" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="573" y="154" width="117" height="52" fill="#93c5fd"/>
+  <rect x="690" y="152" width="14" height="56" fill="#4b5563"/>
+  <rect x="704" y="174" width="66" height="12" fill="#9ca3af"/>
+  <rect x="770" y="140" width="10" height="80" rx="3" fill="#6b7280"/>
+
+  <!-- flechas -->
+  <line x1="40" y1="108" x2="120" y2="108" stroke="#f97316" stroke-width="6" marker-end="url(#f)"/>
+  <text x="40" y="92" font-size="20" font-weight="700" fill="#9a3412">Empujas</text>
+  <line x1="690" y1="108" x2="770" y2="108" stroke="#f97316" stroke-width="6" marker-end="url(#f)"/>
+  <text x="690" y="92" font-size="20" font-weight="700" fill="#9a3412">Se mueve</text>
+
+  <!-- etiquetas -->
+  <text x="145" y="250" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Jeringa de control</text>
+  <text x="656" y="250" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Jeringa receptora</text>
+  <text x="400" y="146" text-anchor="middle" font-size="18" fill="#1f2937">Manguera llena de agua</text>
+  <line x1="400" y1="192" x2="400" y2="270" stroke="#dc2626" stroke-width="2"/>
+  <text x="400" y="292" text-anchor="middle" font-size="17" fill="#b91c1c">Burbuja de aire: ¡sácala! Hace el movimiento esponjoso</text>
+
+  <text x="400" y="332" text-anchor="middle" font-size="20" fill="#1f2937">El agua no se comprime: lo que empujas de un lado se mueve del otro.</text>
+</svg>

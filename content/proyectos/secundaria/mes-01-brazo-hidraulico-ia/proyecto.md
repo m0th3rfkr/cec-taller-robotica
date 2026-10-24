@@ -27,11 +27,17 @@ Un brazo hidráulico hecho de cartón que se mueve con agua, y una IA que recono
 
 > ⚠️ **Seguridad:** las jeringas van **sin aguja**. El pegamento caliente solo lo usa el maestro o un adulto.
 
+![Sentir, pensar y actuar: ver, decidir y moverse](/ilustraciones/comun/sentir-pensar-actuar.svg)
+
+
 ## 📅 Clase 1 — Hidráulica y diseño
 
 **Meta de hoy:** entender cómo se mueve algo con líquido y diseñar tu brazo.
 
 1. **Paso 1.** Prueba con dos jeringas unidas por una manguera, llenas de agua. Empuja una: la otra se mueve. El agua no se comprime, por eso transmite la fuerza.
+
+   ![Dos jeringas unidas con una manguera llena de agua](/ilustraciones/secundaria/hidraulica-jeringas.svg)
+
 2. **Paso 2.** Anota qué pasa si empujas despacio y si empujas rápido.
 3. **Paso 3.** Dibuja tu brazo: base, brazo y "mano" o empujador. Marca dónde irá cada jeringa.
 4. **Paso 4.** Corta con tijeras las piezas de cartón: una base cuadrada y dos tiras para el brazo.
@@ -49,6 +55,9 @@ Un brazo hidráulico hecho de cartón que se mueve con agua, y una IA que recono
 2. **Paso 2.** Pega las tiras a la base, de modo que el brazo pueda levantarse.
 3. **Paso 3.** Llena dos jeringas con agua y conéctalas con la manguera. Saca todas las burbujas.
 4. **Paso 4.** Fija la jeringa receptora a la base con ligas y cinta, de modo que su émbolo empuje el brazo hacia arriba.
+
+   ![Estructura del brazo hidráulico de cartón con sus dos jeringas](/ilustraciones/secundaria/brazo-hidraulico.svg)
+
 5. **Paso 5.** Empuja la jeringa de control (la "palanca"): el brazo debe subir. Tírala hacia atrás y debe bajar.
 6. **Paso 6.** Si te sobra tiempo, repite con otro par de jeringas para mover la "mano".
 
@@ -64,6 +73,9 @@ Un brazo hidráulico hecho de cartón que se mueve con agua, y una IA que recono
 2. **Paso 2.** Crea 4 clases: **Cartón**, **Plástico**, **Metal** y **Nada** (la cámara sin ningún objeto).
 3. **Paso 3.** Para cada clase, usa la cámara para grabar unas 40 fotos del objeto desde varios ángulos y con distintos fondos.
 4. **Paso 4.** Presiona **Entrenar modelo** y espera.
+
+   ![Cuatro pasos de Teachable Machine: crear clases, grabar, entrenar y probar](/ilustraciones/secundaria/teachable-machine.svg)
+
 5. **Paso 5.** Prueba con objetos nuevos que no usaste para entrenar. Anota los que acierta y los que no.
 6. **Paso 6.** Si se equivoca, agrega más fotos de ese caso y entrena de nuevo.
 
@@ -76,6 +88,9 @@ Un brazo hidráulico hecho de cartón que se mueve con agua, y una IA que recono
 **Meta de hoy:** clasificar objetos con tu brazo guiado por la IA y presentarlo.
 
 1. **Paso 1.** Pon los 3 vasos como botes: uno para cartón, uno para plástico y uno para metal.
+
+   ![Montaje: la cámara y la IA deciden, el brazo empuja al bote correcto](/ilustraciones/secundaria/botes-clasificacion.svg)
+
 2. **Paso 2.** Muestra un objeto a la cámara. La IA dice qué es (**sentir** y **pensar**).
 3. **Paso 3.** Usa tu brazo para empujar el objeto al bote correcto (**actuar**).
 4. **Paso 4.** Haz el reto con 6 objetos y anota cuántos clasificó bien tu robot.

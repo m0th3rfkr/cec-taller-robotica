@@ -27,6 +27,9 @@ Un robot con tres partes: **sentir** (la cámara), **pensar** (una IA que recono
 
 > ⚠️ **Seguridad:** el pegamento caliente solo con supervisión. Conecta el Arduino a la computadora **después** de armar los cables.
 
+![Diagrama del sistema: cámara, IA, Arduino, servo con embudo y bote](/ilustraciones/preparatoria/diagrama-sistema.svg)
+
+
 ## 📅 Clase 1 — Diagrama y primera prueba del servo
 
 **Meta de hoy:** tener el plan del robot y comprobar que el servo se mueve.
@@ -34,6 +37,9 @@ Un robot con tres partes: **sentir** (la cámara), **pensar** (una IA que recono
 1. **Paso 1.** Dibuja el diagrama: **cámara → IA → Arduino → servo → embudo → bote**. Escribe qué información viaja entre cada parte.
 2. **Paso 2.** Instala el **Arduino IDE** si aún no lo tienes y conecta el Arduino por USB.
 3. **Paso 3.** Conecta el servo: cable **café/negro** a **GND**, **rojo** a **5V** y **naranja/amarillo** al **pin 9**.
+
+   ![Cableado del servo al Arduino: señal al pin 9, GND a GND y rojo a 5V](/ilustraciones/preparatoria/cableado-servo.svg)
+
 4. **Paso 4.** Sube este programa (Archivo → Nuevo, pega, selecciona tu placa y puerto, presiona *Subir*):
 
 ```cpp
@@ -68,6 +74,9 @@ void loop() {
 1. **Paso 1.** Haz la estructura con la caja: el servo va arriba, fijado con cinta o pegamento caliente.
 2. **Paso 2.** Pega el tubo de cartón al brazo (horn) del servo: será el embudo giratorio.
 3. **Paso 3.** Coloca los 3 vasos debajo, de modo que el embudo apunte a uno distinto en cada ángulo. Marca sus posiciones.
+
+   ![Estructura con servo, embudo giratorio y tres botes a 20°, 90° y 160°](/ilustraciones/preparatoria/estructura-embudo.svg)
+
 4. **Paso 4.** Sube este programa. Recibe un carácter por USB y mueve el servo:
 
 ```cpp

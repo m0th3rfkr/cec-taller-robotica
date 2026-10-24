@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Estructura con servo, embudo giratorio y tres botes</title>
+  <rect x="2" y="2" width="796" height="466" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- estructura de cartón -->
+  <rect x="230" y="60" width="340" height="30" rx="4" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <rect x="230" y="60" width="28" height="360" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <rect x="542" y="60" width="28" height="360" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <line x1="200" y1="420" x2="600" y2="420" stroke="#92602b" stroke-width="5"/>
+
+  <!-- servo -->
+  <rect x="368" y="90" width="64" height="36" rx="4" fill="#3b82f6" stroke="#1e3a8a" stroke-width="3"/>
+
+  <!-- embudos fantasma a 20° y 160° -->
+  <g opacity="0.35">
+    <rect x="390" y="126" width="20" height="110" rx="3" fill="#e8c48f" stroke="#92602b" stroke-width="3" transform="rotate(-25 400 126)"/>
+    <rect x="390" y="126" width="20" height="110" rx="3" fill="#e8c48f" stroke="#92602b" stroke-width="3" transform="rotate(25 400 126)"/>
+  </g>
+  <!-- embudo a 90° (recto) -->
+  <rect x="390" y="126" width="20" height="110" rx="3" fill="#e8c48f" stroke="#92602b" stroke-width="4"/>
+  <circle cx="400" cy="126" r="8" fill="#ffffff" stroke="#1e3a8a" stroke-width="3"/>
+
+  <!-- guías punteadas hacia los botes -->
+  <g stroke="#f97316" stroke-width="4" stroke-dasharray="9 8" fill="none">
+    <line x1="353" y1="226" x2="300" y2="338"/>
+    <line x1="400" y1="236" x2="400" y2="338"/>
+    <line x1="447" y1="226" x2="500" y2="338"/>
+  </g>
+
+  <!-- botes -->
+  <polygon points="265,340 335,340 327,420 273,420" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <polygon points="365,340 435,340 427,420 373,420" fill="#93c5fd" stroke="#2563eb" stroke-width="4"/>
+  <polygon points="465,340 535,340 527,420 473,420" fill="#d1d5db" stroke="#6b7280" stroke-width="4"/>
+  <g font-size="18" font-weight="700" fill="#1f2937" text-anchor="middle">
+    <text x="300" y="446">1 · Cartón</text>
+    <text x="400" y="446">2 · Plástico</text>
+    <text x="500" y="446">3 · Metal</text>
+  </g>
+
+  <!-- ángulos -->
+  <g font-size="22" font-weight="700" fill="#9a3412">
+    <text x="330" y="196" text-anchor="end">20°</text>
+    <text x="420" y="270">90°</text>
+    <text x="470" y="196">160°</text>
+  </g>
+
+  <!-- etiquetas -->
+  <g font-size="17" fill="#1f2937">
+    <line x1="205" y1="200" x2="232" y2="200" stroke="#1f2937" stroke-width="2"/>
+    <text x="30" y="196" font-weight="700">Estructura</text>
+    <text x="30" y="218" font-size="15">de caja de cartón</text>
+
+    <line x1="432" y1="108" x2="600" y2="108" stroke="#1f2937" stroke-width="2"/>
+    <text x="606" y="104" font-weight="700">Servo</text>
+    <text x="606" y="126" font-size="15">sujeto con cinta</text>
+
+    <line x1="408" y1="160" x2="600" y2="170" stroke="#1f2937" stroke-width="2"/>
+    <text x="606" y="166" font-weight="700">Embudo</text>
+    <text x="606" y="188" font-size="15">tubo de cartón</text>
+  </g>
+</svg>

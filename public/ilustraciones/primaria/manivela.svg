@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Cómo funciona la manivela del brazo</title>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="416" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- VISTA DE FRENTE -->
+  <text x="200" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">Vista de frente</text>
+  <rect x="60" y="60" width="280" height="300" rx="8" fill="#d6a96b" stroke="#92602b" stroke-width="5"/>
+  <!-- brazo en tres posiciones -->
+  <g opacity="0.35">
+    <rect x="200" y="196" width="120" height="24" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="3" transform="rotate(-50 200 208)"/>
+    <rect x="200" y="196" width="120" height="24" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="3" transform="rotate(50 200 208)"/>
+  </g>
+  <rect x="200" y="196" width="120" height="24" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="4"/>
+  <circle cx="200" cy="208" r="22" fill="#2563eb" stroke="#1e3a8a" stroke-width="4"/>
+  <circle cx="200" cy="208" r="9" fill="#93c5fd"/>
+  <path d="M250 120 A100 100 0 0 1 308 150" fill="none" stroke="#f97316" stroke-width="5" marker-end="url(#flecha)" transform="translate(-30 -10)"/>
+  <text x="200" y="395" text-anchor="middle" font-size="18" fill="#1f2937">Giras la tapa y el brazo sube y baja</text>
+
+  <!-- VISTA DE LADO -->
+  <text x="590" y="40" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">Vista de lado</text>
+  <!-- pared de la caja -->
+  <rect x="470" y="70" width="36" height="280" rx="6" fill="#d6a96b" stroke="#92602b" stroke-width="5"/>
+  <!-- palito (eje) -->
+  <rect x="430" y="204" width="260" height="12" rx="4" fill="#b45309" stroke="#78350f" stroke-width="2"/>
+  <!-- brazo pegado al palito (de canto) -->
+  <rect x="534" y="130" width="14" height="150" rx="4" fill="#e8c48f" stroke="#92602b" stroke-width="3"/>
+  <!-- tapa manivela -->
+  <ellipse cx="690" cy="210" rx="14" ry="36" fill="#2563eb" stroke="#1e3a8a" stroke-width="4"/>
+
+  <g font-size="18" fill="#1f2937">
+    <line x1="450" y1="210" x2="450" y2="375" stroke="#1f2937" stroke-width="2"/>
+    <text x="450" y="398" text-anchor="middle" font-weight="700">Palito</text>
+    <line x1="541" y1="280" x2="541" y2="330" stroke="#1f2937" stroke-width="2"/>
+    <text x="541" y="352" text-anchor="middle" font-weight="700">Brazo</text>
+    <line x1="690" y1="246" x2="690" y2="330" stroke="#1f2937" stroke-width="2"/>
+    <text x="690" y="352" text-anchor="middle" font-weight="700">Tapa = manivela</text>
+    <text x="520" y="100" font-size="16">pared de la caja</text>
+  </g>
+</svg>

@@ -29,6 +29,9 @@ Al final del mes tendrás un robot de cartón con un brazo que se mueve, y sabr�
 > 🧠 **Pensar:** decide qué hacer.
 > 💪 **Actuar:** se mueve o hace algo.
 
+![Sentir, pensar y actuar: ver, decidir y moverse](/ilustraciones/comun/sentir-pensar-actuar.svg)
+
+
 ## 📅 Clase 1 — Diseñamos nuestro robot
 
 **Meta de hoy:** dibujar tu robot y jugar a ser un robot.
@@ -36,6 +39,9 @@ Al final del mes tendrás un robot de cartón con un brazo que se mueve, y sabr�
 1. **Paso 1.** Dibuja tu robot en una hoja. Ponle cabeza, cuerpo y un brazo.
 2. **Paso 2.** Escribe qué hace tu robot (por ejemplo: "saluda").
 3. **Paso 3.** Juega al **robot obediente**: un compañero es el robot y tú le das órdenes con tarjetas (adelante, gira, brazo arriba). El robot solo puede hacer lo que dice la tarjeta.
+
+   ![Tarjetas del robot obediente: adelante, adelante, gira, brazo arriba](/ilustraciones/primaria/tarjetas-robot-obediente.svg)
+
 4. **Paso 4.** Cambia de turno. Si el robot se equivoca, busca qué tarjeta estaba mal. ¡Eso se llama corregir errores!
 5. **Paso 5.** Revisa la lista de materiales de arriba y marca los que ya tienes.
 
@@ -50,6 +56,9 @@ Al final del mes tendrás un robot de cartón con un brazo que se mueve, y sabr�
 1. **Paso 1.** Usa la caja grande como cuerpo.
 2. **Paso 2.** Pega la caja pequeña como cabeza.
 3. **Paso 3.** Pega 4 tapas de botella abajo como ruedas o pies.
+
+   ![Partes del robot de cartón: cabeza, cuerpo, ruedas, brazo y botones](/ilustraciones/primaria/robot-partes.svg)
+
 4. **Paso 4.** Pide ayuda al maestro para hacer un hoyo en el costado de la caja.
 
 > 💡 **Pista:** si el pegamento tarda en secar, sostén la pieza 30 segundos.
@@ -63,6 +72,9 @@ Al final del mes tendrás un robot de cartón con un brazo que se mueve, y sabr�
 1. **Paso 1.** Pasa un palito por el hoyo del costado.
 2. **Paso 2.** Pega la tira de cartón al palito: será el brazo.
 3. **Paso 3.** Pega una tapa de botella en la punta del palito, por afuera de la caja: será la manivela.
+
+   ![Cómo funciona la manivela: palito, brazo y tapa](/ilustraciones/primaria/manivela.svg)
+
 4. **Paso 4.** Gira la manivela. El brazo debe subir y bajar.
 5. **Paso 5.** Piensa: ¿qué hace que se mueva? (**¡Tú!** Tú eres el que *siente* y *piensa*, y la manivela es la que *actúa*.)
 

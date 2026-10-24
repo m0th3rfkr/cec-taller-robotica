@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Sentir, pensar, actuar: las tres cosas que hace un robot</title>
+  <defs>
+    <marker id="flecha" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="20" markerHeight="20" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#1f2937"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="356" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- SENTIR -->
+  <rect x="40" y="50" width="200" height="230" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <ellipse cx="140" cy="130" rx="50" ry="30" fill="#ffffff" stroke="#2563eb" stroke-width="5"/>
+  <circle cx="140" cy="130" r="17" fill="#2563eb"/>
+  <circle cx="134" cy="124" r="5" fill="#ffffff"/>
+  <text x="140" y="218" text-anchor="middle" font-size="28" font-weight="700" fill="#1e3a8a">SENTIR</text>
+  <text x="140" y="248" text-anchor="middle" font-size="17" fill="#1f2937">Ve, escucha o toca</text>
+
+  <line x1="248" y1="165" x2="292" y2="165" stroke="#1f2937" stroke-width="5" marker-end="url(#flecha)"/>
+
+  <!-- PENSAR -->
+  <rect x="300" y="50" width="200" height="230" rx="20" fill="#ffedd5" stroke="#f97316" stroke-width="4"/>
+  <circle cx="400" cy="130" r="38" fill="none" stroke="#f97316" stroke-width="14" stroke-dasharray="11 11"/>
+  <circle cx="400" cy="130" r="30" fill="#f97316"/>
+  <circle cx="400" cy="130" r="12" fill="#ffffff"/>
+  <text x="400" y="218" text-anchor="middle" font-size="28" font-weight="700" fill="#9a3412">PENSAR</text>
+  <text x="400" y="248" text-anchor="middle" font-size="17" fill="#1f2937">Decide qué hacer</text>
+
+  <line x1="508" y1="165" x2="552" y2="165" stroke="#1f2937" stroke-width="5" marker-end="url(#flecha)"/>
+
+  <!-- ACTUAR -->
+  <rect x="560" y="50" width="200" height="230" rx="20" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <rect x="610" y="150" width="60" height="26" rx="6" fill="#16a34a"/>
+  <polyline points="640,150 680,108 722,122" fill="none" stroke="#166534" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="640" cy="150" r="9" fill="#ffffff" stroke="#166534" stroke-width="3"/>
+  <circle cx="680" cy="108" r="9" fill="#ffffff" stroke="#166534" stroke-width="3"/>
+  <circle cx="728" cy="124" r="12" fill="#166534"/>
+  <text x="660" y="218" text-anchor="middle" font-size="28" font-weight="700" fill="#166534">ACTUAR</text>
+  <text x="660" y="248" text-anchor="middle" font-size="17" fill="#1f2937">Se mueve o hace algo</text>
+
+  <text x="400" y="326" text-anchor="middle" font-size="20" fill="#1f2937">Todos los robots hacen estas tres cosas, una detrás de otra.</text>
+</svg>

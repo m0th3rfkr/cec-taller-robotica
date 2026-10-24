@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Estructura del brazo hidráulico de cartón</title>
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="446" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- base y poste -->
+  <rect x="100" y="380" width="360" height="30" rx="4" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <rect x="135" y="300" width="30" height="80" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+
+  <!-- brazo -->
+  <g transform="rotate(-20 150 300)">
+    <rect x="150" y="289" width="300" height="22" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="4"/>
+  </g>
+  <circle cx="150" cy="300" r="10" fill="#b45309" stroke="#78350f" stroke-width="3"/>
+
+  <!-- jeringa receptora (vertical) -->
+  <rect x="296" y="258" width="8" height="76" fill="#9ca3af"/>
+  <rect x="285" y="330" width="30" height="50" rx="3" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="288" y="346" width="24" height="31" fill="#93c5fd"/>
+  <rect x="287" y="334" width="26" height="12" fill="#4b5563"/>
+  <rect x="315" y="358" width="14" height="10" fill="#e5e7eb" stroke="#1f2937" stroke-width="2"/>
+
+  <!-- manguera -->
+  <line x1="329" y1="363" x2="540" y2="363" stroke="#9ca3af" stroke-width="12"/>
+  <line x1="329" y1="363" x2="540" y2="363" stroke="#60a5fa" stroke-width="7"/>
+
+  <!-- jeringa de control (horizontal) -->
+  <rect x="540" y="355" width="20" height="16" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <rect x="560" y="340" width="160" height="46" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="562" y="344" width="98" height="38" fill="#93c5fd"/>
+  <rect x="660" y="342" width="12" height="42" fill="#4b5563"/>
+  <rect x="672" y="358" width="86" height="10" fill="#9ca3af"/>
+  <rect x="758" y="346" width="10" height="34" rx="3" fill="#6b7280"/>
+
+  <!-- flechas -->
+  <line x1="770" y1="318" x2="712" y2="318" stroke="#f97316" stroke-width="6" marker-end="url(#f)"/>
+  <text x="742" y="302" text-anchor="middle" font-size="20" font-weight="700" fill="#9a3412">Empujas</text>
+  <line x1="480" y1="260" x2="480" y2="190" stroke="#f97316" stroke-width="6" marker-end="url(#f)"/>
+  <text x="480" y="172" text-anchor="middle" font-size="20" font-weight="700" fill="#9a3412">El brazo sube</text>
+
+  <!-- etiquetas -->
+  <g font-size="18" fill="#1f2937">
+    <line x1="300" y1="170" x2="300" y2="234" stroke="#1f2937" stroke-width="2"/>
+    <text x="300" y="158" text-anchor="middle" font-weight="700">Brazo de cartón</text>
+    <line x1="112" y1="286" x2="140" y2="298" stroke="#1f2937" stroke-width="2"/>
+    <text x="30" y="262" font-weight="700">Articulación</text>
+    <text x="30" y="284" font-size="16">(palito)</text>
+    <text x="300" y="434" text-anchor="middle" font-weight="700">Jeringa receptora</text>
+    <text x="640" y="434" text-anchor="middle" font-weight="700">Jeringa de control</text>
+    <text x="434" y="348" text-anchor="middle" font-size="16">manguera con agua</text>
+  </g>
+</svg>

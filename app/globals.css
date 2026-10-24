@@ -73,3 +73,5 @@ form.login button {
   color: #fff; font-size: 1.1rem; font-weight: 700; cursor: pointer;
 }
 .error { color: #b91c1c; font-weight: 600; }
+
+.pasos img { display: block; max-width: 100%; height: auto; margin: 1rem 0; border-radius: 12px; }

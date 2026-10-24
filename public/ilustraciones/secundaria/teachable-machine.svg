@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Pasos para entrenar la IA con Teachable Machine</title>
+  <defs>
+    <marker id="g" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="16" markerHeight="16" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#6b7280"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="416" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- tarjeta 1 -->
+  <rect x="20" y="40" width="170" height="290" rx="16" fill="#dbeafe" stroke="#2563eb" stroke-width="4"/>
+  <text x="105" y="76" text-anchor="middle" font-size="20" font-weight="700" fill="#1e3a8a">1. Crea 4 clases</text>
+  <rect x="40" y="100" width="130" height="38" rx="8" fill="#d6a96b" stroke="#92602b" stroke-width="3"/>
+  <text x="105" y="125" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Cartón</text>
+  <rect x="40" y="148" width="130" height="38" rx="8" fill="#93c5fd" stroke="#2563eb" stroke-width="3"/>
+  <text x="105" y="173" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Plástico</text>
+  <rect x="40" y="196" width="130" height="38" rx="8" fill="#d1d5db" stroke="#6b7280" stroke-width="3"/>
+  <text x="105" y="221" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Metal</text>
+  <rect x="40" y="244" width="130" height="38" rx="8" fill="#ffffff" stroke="#6b7280" stroke-width="3" stroke-dasharray="6 5"/>
+  <text x="105" y="269" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Nada</text>
+  <text x="105" y="308" text-anchor="middle" font-size="15" fill="#1f2937">(cámara sin objeto)</text>
+
+  <line x1="194" y1="185" x2="206" y2="185" stroke="#6b7280" stroke-width="3" marker-end="url(#g)"/>
+
+  <!-- tarjeta 2 -->
+  <rect x="210" y="40" width="170" height="290" rx="16" fill="#ffedd5" stroke="#f97316" stroke-width="4"/>
+  <text x="295" y="76" text-anchor="middle" font-size="20" font-weight="700" fill="#9a3412">2. Graba fotos</text>
+  <rect x="245" y="100" width="100" height="66" rx="10" fill="#1f2937"/>
+  <rect x="268" y="92" width="30" height="14" rx="4" fill="#1f2937"/>
+  <circle cx="295" cy="134" r="22" fill="#ffffff" stroke="#9ca3af" stroke-width="4"/>
+  <circle cx="295" cy="134" r="10" fill="#f97316"/>
+  <g fill="#ffffff" stroke="#f97316" stroke-width="3">
+    <rect x="240" y="188" width="34" height="26" rx="4"/>
+    <rect x="278" y="188" width="34" height="26" rx="4"/>
+    <rect x="316" y="188" width="34" height="26" rx="4"/>
+    <rect x="240" y="218" width="34" height="26" rx="4"/>
+    <rect x="278" y="218" width="34" height="26" rx="4"/>
+    <rect x="316" y="218" width="34" height="26" rx="4"/>
+  </g>
+  <text x="295" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">Unas 40 por clase</text>
+  <text x="295" y="298" text-anchor="middle" font-size="15" fill="#1f2937">ángulos y fondos</text>
+  <text x="295" y="318" text-anchor="middle" font-size="15" fill="#1f2937">distintos</text>
+
+  <line x1="384" y1="185" x2="396" y2="185" stroke="#6b7280" stroke-width="3" marker-end="url(#g)"/>
+
+  <!-- tarjeta 3 -->
+  <rect x="400" y="40" width="170" height="290" rx="16" fill="#ede9fe" stroke="#7c3aed" stroke-width="4"/>
+  <text x="485" y="76" text-anchor="middle" font-size="20" font-weight="700" fill="#4c1d95">3. Entrena</text>
+  <circle cx="485" cy="160" r="42" fill="none" stroke="#7c3aed" stroke-width="16" stroke-dasharray="13 13"/>
+  <circle cx="485" cy="160" r="33" fill="#7c3aed"/>
+  <circle cx="485" cy="160" r="13" fill="#ffffff"/>
+  <rect x="412" y="236" width="146" height="40" rx="10" fill="#7c3aed"/>
+  <text x="485" y="261" text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">Entrenar modelo</text>
+  <text x="485" y="306" text-anchor="middle" font-size="15" fill="#1f2937">espera a que termine</text>
+
+  <line x1="574" y1="185" x2="586" y2="185" stroke="#6b7280" stroke-width="3" marker-end="url(#g)"/>
+
+  <!-- tarjeta 4 -->
+  <rect x="590" y="40" width="190" height="290" rx="16" fill="#dcfce7" stroke="#16a34a" stroke-width="4"/>
+  <text x="685" y="76" text-anchor="middle" font-size="20" font-weight="700" fill="#166534">4. Prueba</text>
+  <rect x="615" y="96" width="140" height="100" rx="8" fill="#f8fafc" stroke="#166534" stroke-width="3"/>
+  <rect x="656" y="118" width="22" height="58" rx="5" fill="#bfdbfe" stroke="#2563eb" stroke-width="3"/>
+  <rect x="661" y="106" width="12" height="14" fill="#bfdbfe" stroke="#2563eb" stroke-width="2"/>
+  <text x="685" y="226" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Plástico 95%</text>
+  <rect x="625" y="238" width="120" height="14" rx="7" fill="#e5e7eb"/>
+  <rect x="625" y="238" width="114" height="14" rx="7" fill="#16a34a"/>
+  <text x="685" y="282" text-anchor="middle" font-size="15" fill="#1f2937">usa objetos nuevos,</text>
+  <text x="685" y="302" text-anchor="middle" font-size="15" fill="#1f2937">que no usaste antes</text>
+
+  <text x="400" y="372" text-anchor="middle" font-size="19" fill="#1f2937">Si se equivoca: agrega más fotos de ese caso y entrena otra vez.</text>
+  <text x="400" y="398" text-anchor="middle" font-size="16" fill="#6b7280">teachablemachine.withgoogle.com → Proyecto de imagen</text>
+</svg>
