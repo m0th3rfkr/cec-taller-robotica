@@ -26,6 +26,14 @@ Sitio web con acceso controlado. Un proyecto por mes, una clase por semana, para
 - Ejecuta `supabase/schema.sql` y asigna a cada persona su perfil (`alumno` con `nivel`, o `maestro`).
 - Los alumnos solo ven su nivel; los maestros ven todo.
 
+## Crear cuentas de alumnos en lote
+
+1. Copia `alumnos.ejemplo.csv` a `alumnos.csv` y llénalo (`nombre,email,nivel`; `password` es opcional).
+2. En `.env.local` agrega `SUPABASE_SERVICE_ROLE_KEY` (Supabase > Project Settings > API > service_role). Esa llave es secreta: nunca la subas a GitHub ni la pegues en chats.
+3. Prueba sin crear nada: `node --env-file=.env.local scripts/crear-alumnos.mjs --prueba`
+4. Crea las cuentas: `node --env-file=.env.local scripts/crear-alumnos.mjs`
+5. Reparte las contraseñas de `credenciales.csv`. Se puede volver a correr: si el correo ya existe, solo actualiza nombre y nivel.
+
 ## Correr en tu computadora
 
 ```bash
