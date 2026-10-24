@@ -16,12 +16,26 @@ drop policy if exists "perfil propio" on public.perfiles;
 create policy "perfil propio" on public.perfiles
   for select using (auth.uid() = id);
 
+-- Función auxiliar: evita la recursión infinita de políticas (security definer salta RLS).
+create or replace function public.es_maestro()
+returns boolean
+language sql
+stable
+security definer
+set search_path = public
+as $$
+  select exists (
+    select 1 from public.perfiles where id = auth.uid() and rol = 'maestro'
+  );
+$$;
+
+revoke execute on function public.es_maestro() from public, anon;
+grant execute on function public.es_maestro() to authenticated;
+
 -- Los maestros leen todos los perfiles.
 drop policy if exists "maestros leen todo" on public.perfiles;
 create policy "maestros leen todo" on public.perfiles
-  for select using (
-    exists (select 1 from public.perfiles p where p.id = auth.uid() and p.rol = 'maestro')
-  );
+  for select using (public.es_maestro());
 
 -- Nadie edita perfiles desde el sitio: se asignan en el panel de Supabase.
 
