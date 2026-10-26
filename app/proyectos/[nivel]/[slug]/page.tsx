@@ -1,35 +1,11 @@
 import { notFound } from "next/navigation";
 import ReactMarkdown from "react-markdown";
 import { perfilActual, puedeVerNivel } from "@/lib/perfil";
-import { esNivel, obtenerProyecto, type Video } from "@/lib/proyectos";
+import { esNivel, obtenerProyecto } from "@/lib/proyectos";
 import Barra from "../../../barra";
+import Reproductor from "../../../reproductor";
 
 export const dynamic = "force-dynamic";
-
-function youtubeId(url: string): string | null {
-  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([\w-]{11})/);
-  return m ? m[1] : null;
-}
-
-function Reproductor({ video }: { video: Video }) {
-  const yt = youtubeId(video.url);
-  return (
-    <div className="caja">
-      <h3 style={{ marginTop: 0 }}>🎬 {video.titulo}</h3>
-      {yt ? (
-        <iframe
-          className="video"
-          src={`https://www.youtube-nocookie.com/embed/${yt}`}
-          title={video.titulo}
-          allow="accelerometer; encrypted-media; picture-in-picture"
-          allowFullScreen
-        />
-      ) : (
-        <video className="video" src={video.url} controls preload="metadata" />
-      )}
-    </div>
-  );
-}
 
 export default async function PaginaProyecto({
   params,
