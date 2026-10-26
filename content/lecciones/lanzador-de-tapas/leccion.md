@@ -2,7 +2,7 @@
 titulo: "Lanzador de tapas con motor"
 edad: "6 a 12 años"
 semanas: 4
-resumen: "Una liga estirada guarda energía y un motor la estira solo, una y otra vez. Construimos un lanzador automático que dispara tapas de botella a una diana."
+resumen: "Una liga estirada guarda energía y un motor la estira solo, una y otra vez. Construimos un lanzador automático de tapas de botella y, al final, hacemos un concurso: ¿cuál tapa llega más lejos?"
 materiales:
   - "Motorreductor de corriente directa (DC) de 3 a 6 V, de Steren o de una tienda de electrónica (1). Debe ser reductor: gira lento y con fuerza"
   - "Portapilas para 2 pilas AA (1) y 2 pilas AA"
@@ -13,7 +13,7 @@ materiales:
   - "Cartón firme de cajas usadas (varias piezas grandes)"
   - "Palitos de madera o abatelenguas (6)"
   - "Tijeras, cinta adhesiva y pegamento (el maestro ayuda con el silicón caliente)"
-  - "Cinta masking, regla o cinta métrica y marcadores"
+  - "Cinta métrica larga (2 m o más) o varias reglas, cinta masking y marcadores"
 videos: []
 # Para agregar un video (YouTube o archivo propio), quita los corchetes de arriba y escribe:
 # videos:
@@ -23,17 +23,17 @@ videos: []
 
 ## 🎯 ¿Qué vamos a lograr?
 
-Al final del mes tendrás un **lanzador de tapas automático**: un motor gira una rueda, la rueda estira una liga y, al soltarla de golpe, la liga lanza la tapa. También sabrás armar un circuito con interruptor.
+Al final del mes tendrás un **lanzador de tapas automático**: un motor gira una rueda, la rueda estira una liga y, al soltarla de golpe, la liga lanza la tapa. También sabrás armar un circuito con interruptor y competirás en el **Gran concurso de distancia**: ¿cuál tapa llega más lejos?
 
 > 🔋 **La idea:** estirar una liga guarda energía. Al soltarla, esa energía empuja la tapa. Tu motor hace el trabajo de estirar la liga una y otra vez.
 
-![Partes del lanzador: motor, rueda con rampita, empujador con liga, tapa y diana](/ilustraciones/comun/lanzador-partes.svg)
+![Partes del lanzador: motor, rueda con rampita, empujador con liga, tapa y pista para medir](/ilustraciones/comun/lanzador-partes.svg)
 
 > ⚙️ **¿Cómo dispara?** La rueda del motor tiene una **rampita**. Al girar, la rampita empuja hacia atrás la cola del empujador y estira la liga. Cuando la rampita termina, el empujador se suelta de golpe, golpea la tapa y la tapa sale deslizándose por la mesa.
 
 ## 🛡️ Reglas de seguridad
 
-- **Las tapas se lanzan deslizándose por la mesa, hacia la diana. Nunca apuntes a la cara ni a los ojos de nadie.**
+- **Las tapas se lanzan deslizándose por la mesa, siempre hacia la pista de medir. Nunca apuntes a la cara ni a los ojos de nadie.**
 - Con el motor prendido, **las manos lejos de la rueda y de la liga**. Primero apaga, después acomoda.
 - En el circuito, **nunca unas con un caimán los dos extremos del portapilas**: se calientan las pilas y los cables.
 - Tijeras y silicón caliente: solo con el maestro.
@@ -85,18 +85,37 @@ Al final del mes tendrás un **lanzador de tapas automático**: un motor gira un
 
 ✅ **Para terminar la clase, revisa:** al prender el interruptor, el lanzador dispara tapas por sí solo.
 
-## 📅 Clase 4 — Diana, pruebas y mejoras
+## 📅 Clase 4 — Afinamos y ¡Gran concurso de distancia!
 
-**Meta de hoy:** medir tu lanzador, mejorarlo y mostrarlo a la clase.
+**Meta de hoy:** mejorar tu lanzador y competir para ver **¿cuál tapa llega más lejos?**
 
-1. **Paso 1.** Con cinta masking dibuja una **diana** en la mesa o en el piso: tres zonas con 1, 3 y 5 puntos, a un metro del lanzador.
-2. **Paso 2.** Lanza 5 tapas y suma tus puntos. Apaga el motor cada vez que acomodes una tapa.
-3. **Paso 3.** Mide hasta dónde llega la tapa más lejana.
-4. **Paso 4.** **Cambia una sola cosa** (el número de ligas, la altura de la rampita, el tamaño de la tapa) y repite los pasos 2 y 3.
-5. **Paso 5.** Compara: ¿mejoró? ¿Por qué crees que pasó?
-6. **Paso 6.** Presenta tu lanzador a la clase: cuéntanos cómo funciona y qué cambiaste.
+### 🔧 Primera parte: afinar tu lanzador
 
-✅ **Para terminar la clase, revisa:** tienes tus puntos anotados y puedes explicar cómo la liga y el motor lanzan la tapa.
+1. **Paso 1.** Prepara la **pista de medir**: pega una cinta métrica en la mesa o en el piso con cinta masking, empezando en una **línea de salida** (el 0) y siguiendo hacia adelante unos 2 metros. Todos usamos pistas lisas y parejas.
+2. **Paso 2.** Lanza 5 tapas de práctica y anota hasta dónde llegó cada una. Apaga el motor cada vez que acomodes una tapa.
+3. **Paso 3.** **Cambia una sola cosa** (el número de ligas, la altura de la rampita, el tamaño de la tapa) y repite el paso 2.
+4. **Paso 4.** Compara: ¿mejoró? ¿Por qué crees que pasó? Quédate con el cambio que mejor funcionó.
+
+### 🏆 Segunda parte: el Gran concurso de distancia
+
+**Reglas, para que sea justo:**
+
+- Todos usan la **misma pista y la misma línea de salida**.
+- Cada quien tiene **3 tiros oficiales**. Cuenta **el tiro más lejano**.
+- La distancia se mide desde la línea de salida hasta donde **se detiene la tapa**.
+- La tapa debe ir **deslizándose por la mesa**. Si se sale de la pista por un lado, ese tiro no cuenta.
+- Máximo **4 ligas** y solo **2 pilas AA**. La tapa puede ser de cualquier tamaño.
+- Si hay empate, cada empatado tiene un tiro más.
+
+**Premios, para que todos puedan ganar:**
+
+- 🥇 **La tapa más lejana:** el mejor tiro de todos.
+- 🎯 **La más constante:** quien tiene los 3 tiros más parecidos entre sí.
+- 📈 **La mayor mejora:** quien más avanzó desde sus primeros tiros de práctica hasta su mejor tiro oficial.
+
+Al final, cada quien presenta su lanzador a la clase: cuéntanos cómo funciona y qué cambiaste.
+
+✅ **Para terminar la clase, revisa:** tienes tus distancias anotadas, participaste en el concurso y puedes explicar cómo la liga y el motor lanzan la tapa.
 
 ## 🔁 Si no terminaste en clase
 
@@ -104,4 +123,4 @@ Repasa los pasos de la clase que te faltó y mira el video. Guarda tu lanzador e
 
 ## 🌱 Reto extra
 
-Agrega una **luz de encendido**: con el maestro, conecta un LED con su resistencia en paralelo con el motor, para que se prenda cuando el interruptor esté activado. O prueba una rampita más alta o más larga: ¿cambia hasta dónde llega la tapa? Anota tus resultados.
+Agrega una **luz de encendido**: con el maestro, conecta un LED con su resistencia en paralelo con el motor, para que se prenda cuando el interruptor esté activado. O rompe tu propio récord: prueba una rampita más alta, otra tapa o otra liga, y anota qué cambió en la distancia.
