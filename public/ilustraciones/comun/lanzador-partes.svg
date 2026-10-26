@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
-  <title>Partes del lanzador de tapas: motor, rueda con rampita, empujador con liga, tapa y diana</title>
+  <title>Partes del lanzador de tapas: motor, rueda con rampita, empujador con liga, tapa y pista para medir</title>
   <defs>
     <marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" orient="auto">
       <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
