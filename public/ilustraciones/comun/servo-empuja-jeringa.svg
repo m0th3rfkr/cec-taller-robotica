@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>El motor empuja una jeringa y el agua mueve el brazo de cartón</title>
+  <defs>
+    <marker id="f" viewBox="0 0 10 10" refX="8" refY="5" markerUnits="userSpaceOnUse" markerWidth="18" markerHeight="18" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f97316"/>
+    </marker>
+  </defs>
+  <rect x="2" y="2" width="796" height="396" rx="20" fill="#ffffff" stroke="#e5e7eb" stroke-width="2"/>
+
+  <!-- SERVO -->
+  <rect x="24" y="150" width="96" height="62" rx="6" fill="#2563eb" stroke="#1e3a8a" stroke-width="4"/>
+  <circle cx="120" cy="181" r="14" fill="#93c5fd" stroke="#1e3a8a" stroke-width="3"/>
+  <!-- brazo del servo (horn) -->
+  <line x1="120" y1="181" x2="150" y2="147" stroke="#1f2937" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="150" cy="147" r="6" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+  <!-- flecha de giro -->
+  <path d="M96 122 A48 48 0 0 1 150 112" fill="none" stroke="#f97316" stroke-width="5" marker-end="url(#f)"/>
+
+  <!-- BIELA (clip) -->
+  <line x1="150" y1="147" x2="222" y2="181" stroke="#6b7280" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="222" cy="181" r="6" fill="#ffffff" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- JERINGA DE CONTROL -->
+  <rect x="222" y="152" width="12" height="58" rx="3" fill="#6b7280"/>
+  <rect x="234" y="175" width="70" height="12" fill="#9ca3af"/>
+  <rect x="290" y="152" width="140" height="58" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="330" y="156" width="98" height="50" fill="#93c5fd"/>
+  <rect x="318" y="154" width="14" height="54" fill="#4b5563"/>
+  <rect x="430" y="173" width="24" height="16" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+
+  <!-- MANGUERA -->
+  <line x1="454" y1="181" x2="560" y2="181" stroke="#9ca3af" stroke-width="14"/>
+  <line x1="454" y1="181" x2="560" y2="181" stroke="#60a5fa" stroke-width="8"/>
+
+  <!-- JERINGA RECEPTORA -->
+  <rect x="560" y="173" width="24" height="16" fill="#e5e7eb" stroke="#1f2937" stroke-width="3"/>
+  <rect x="584" y="152" width="110" height="58" rx="4" fill="#ffffff" stroke="#1f2937" stroke-width="4"/>
+  <rect x="586" y="156" width="64" height="50" fill="#93c5fd"/>
+  <rect x="650" y="154" width="12" height="54" fill="#4b5563"/>
+  <rect x="662" y="175" width="52" height="12" fill="#9ca3af"/>
+
+  <!-- BASE Y BRAZO DE CARTON -->
+  <rect x="560" y="330" width="230" height="22" rx="4" fill="#d6a96b" stroke="#92602b" stroke-width="4"/>
+  <g opacity="0.35">
+    <rect x="720" y="110" width="24" height="220" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="3" transform="rotate(12 732 330)"/>
+  </g>
+  <rect x="720" y="110" width="24" height="220" rx="6" fill="#e8c48f" stroke="#92602b" stroke-width="4"/>
+  <circle cx="732" cy="330" r="9" fill="#2563eb" stroke="#1e3a8a" stroke-width="3"/>
+  <line x1="714" y1="181" x2="732" y2="181" stroke="#1f2937" stroke-width="5"/>
+
+  <!-- ETIQUETAS -->
+  <text x="72" y="244" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Servo</text>
+  <text x="72" y="266" text-anchor="middle" font-size="16" fill="#1f2937">(o motor con</text>
+  <text x="72" y="286" text-anchor="middle" font-size="16" fill="#1f2937">manivela)</text>
+  <text x="190" y="104" text-anchor="middle" font-size="18" font-weight="700" fill="#1f2937">Biela (clip)</text>
+  <line x1="190" y1="112" x2="190" y2="158" stroke="#1f2937" stroke-width="2"/>
+  <text x="360" y="244" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Jeringa de control</text>
+  <text x="505" y="146" text-anchor="middle" font-size="18" fill="#1f2937">Agua</text>
+  <text x="640" y="244" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Jeringa receptora</text>
+  <text x="680" y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">Brazo de cartón</text>
+
+  <text x="400" y="326" text-anchor="middle" font-size="19" fill="#1f2937">El servo empuja y jala el émbolo,</text>
+  <text x="400" y="352" text-anchor="middle" font-size="19" fill="#1f2937">y el agua mueve el brazo.</text>
+  <text x="400" y="384" text-anchor="middle" font-size="16" fill="#b91c1c">Agua lejos de los cables: el servo y el Arduino van a un lado, con la charola.</text>
+</svg>
